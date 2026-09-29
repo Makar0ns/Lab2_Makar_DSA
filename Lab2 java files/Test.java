@@ -16,5 +16,9 @@ public class Test{
     list.add(3, "Third");
     System.out.println("The size of the list after adding elements is: " + list.size());
 
+
+    //testing removing elements from the list
+    list.remove(1);
+    System.out.println("The size of the list after deleting an element is: " + list.size());
     }
 }
