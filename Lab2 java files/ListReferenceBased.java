@@ -24,6 +24,20 @@ public class ListReferenceBased implements ListInterface
     return numItems;
   }  // end size
 
+
+  public void displayList(){
+    //method that displays all of the items in the list
+    Node curr = head;
+    
+    System.out.println("Displaying the list:");
+    for (int skip = 1; skip <= numItems; skip++)
+    {
+      System.out.print(curr.getItem() + " ");
+      curr = curr.getNext();
+    } // end for
+  }//end displayList
+
+
   private Node find(int index)
   {
   // --------------------------------------------------

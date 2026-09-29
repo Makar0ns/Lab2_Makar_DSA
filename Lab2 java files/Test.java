@@ -23,7 +23,12 @@ public class Test{
     
     //testing get() method
     System.out.println("The element with index 1, after removal: " + list.get(1));
-    }
+    
+    //testing displayList() method 
+    list.displayList();
+    
+    }//end of main
 
     
-}
+    
+}// end of class
