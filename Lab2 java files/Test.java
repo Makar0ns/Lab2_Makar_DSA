@@ -7,6 +7,8 @@ public class Test{
     //testing if linst is empty
     System.out.println("The list is empty: " + list.isEmpty());
 
-    //
+    //testing size()
+    System.out.println("The size of the list is: " + list.size());
+    
     }
 }
