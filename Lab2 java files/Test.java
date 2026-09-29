@@ -5,6 +5,8 @@ public class Test{
 
     ListReferenceBased list = new ListReferenceBased(); 
     //testing if linst is empty
-    System.out.println("The list is empty: ");
+    System.out.println("The list is empty: " + list.isEmpty());
+
+    //
     }
 }
