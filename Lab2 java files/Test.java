@@ -20,5 +20,10 @@ public class Test{
     //testing removing elements from the list
     list.remove(1);
     System.out.println("The size of the list after deleting an element is: " + list.size());
+    
+    //testing get() method
+    System.out.println("The element with index 1, after removal: " + list.get(1));
     }
+
+    
 }
