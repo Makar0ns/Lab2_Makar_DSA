@@ -35,8 +35,24 @@ public class ListReferenceBased implements ListInterface
       System.out.print(curr.getItem() + " ");
       curr = curr.getNext();
     } // end for
+    System.out.println();
   }//end displayList
 
+
+  public String listLongest(){
+
+    String result = "";
+    Node curr = head;
+    if (numItems == 0)
+      return "The list is empty";
+    for(int i = 1; i<=numItems; i++){
+      if(curr.getItem().toString().length() > result.length()){
+        result = curr.getItem().toString();
+      }//end if
+      curr = curr.getNext();
+    }//end for
+    return result;
+  }//end listLongest
 
   private Node find(int index)
   {

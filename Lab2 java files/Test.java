@@ -26,9 +26,11 @@ public class Test{
     
     //testing displayList() method 
     list.displayList();
-    
-    }//end of main
 
-    
+    //adding longest element and searching for it 
+    list.add(3, "Tralalalalalalala");
+    System.out.println("The longest element in the list is: " + list.listLongest());
+
+    }//end of main
     
 }// end of class
